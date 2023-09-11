@@ -1,5 +1,9 @@
 #include <stdio.h>
-
+/**
+ * main - enter point
+ * description: using sizeof
+ * Return: alweys 0 (success)
+ */
 int main(void)
 {
 
