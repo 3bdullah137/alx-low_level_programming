@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-main(void)
+int main(void)
 {
 
 printf("size of a %u byte(s)\n", sizeof(char));
