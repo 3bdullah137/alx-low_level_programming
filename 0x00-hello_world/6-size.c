@@ -1,7 +1,7 @@
 #include <stdio.h>
 /**
  * main - enter point
- * description: using sizeof
+ * Description: using sizeof to print the size of various types.
  * Return: alweys 0 (success)
  */
 int main(void)
