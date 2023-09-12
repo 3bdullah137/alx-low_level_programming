@@ -1,17 +1,27 @@
 #include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+/**
+ * main - enrty point
+ * Deascription: a
+ * Return: 0 (success)
+ */
 
 int main(void)
 
 {
-float n = rand();
+int n;
+
+srand(time(0));
+n = rand()- RAND_MAX / 2;
 if (n > 0)
 {
-printf("%f is positive", n);
+printf("%i is positive\n", n);
 }
 else if (n < 0)
-printf("%f is negative", n);
+printf("%is negative\n", n);
 else if (n == 0)
-printf("%f is zero", n);
+printf("%i is zero\n", n);
 return (0);
 
 }
